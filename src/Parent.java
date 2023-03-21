@@ -1,10 +1,10 @@
-public class Parent {
+public class Parent extends Family{
     private boolean atWork;
 
-    public Parent(){
+    public Parent(String name, int age) {
+        super(name, age);
         atWork = false;
     }
-
     public boolean getAtWork() {
         return atWork;
     }

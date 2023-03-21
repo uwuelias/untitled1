@@ -1,9 +1,10 @@
-public class Children {
+public class Children extends Family{
     private boolean inSchool;
-    public Children() {
+
+    public Children(String name, int age) {
+        super(name, age);
         inSchool = false;
     }
-
     public boolean getInSchool() {
         return inSchool;
     }
